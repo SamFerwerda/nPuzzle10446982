@@ -1,0 +1,60 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:clickable="false"
+    android:backgroundTintMode="add"
+    android:id="@+id/kies_afbeelding"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/afbeelding"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#ff6abbff" />
+
+    <ImageButton
+        android:src="@drawable/image1"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/imageButton1"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/firstimage" />
+
+    <ImageButton
+        android:src="@drawable/image2"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/imageButton2"
+        android:layout_below="@+id/imageButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/secondimage" />
+
+    <ImageButton
+        android:src="@drawable/image3"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:id="@+id/imageButton3"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/Thirdimage" />
+
+</RelativeLayout>

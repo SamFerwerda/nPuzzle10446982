@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sam.npuzzle10446982" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.sam.npuzzle10446982.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameActivity"
+            android:label="@string/title_activity_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.sam.npuzzle10446982.Activity3"
+            android:label="@string/title_activity_activity3" >
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_activity4" >
+        </activity>
+        <activity
+            android:name=".DifficultyActivity"
+            android:label="@string/title_activity_activity5" >
+        </activity>
+        <activity
+            android:name="com.example.sam.npuzzle10446982.VictoryActivity"
+            android:label="@string/title_activity_victory" >
+        </activity>
+    </application>
+
+</manifest>
